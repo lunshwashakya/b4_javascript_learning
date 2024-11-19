@@ -47,4 +47,17 @@ switch(nameOfDay){
         break;
     default:
         console.log("Today is weekday!");
+    }
+    
+    switch(nameOfDay){
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+        console.log(`Today is ${nameOfDay}`);
+        console.log("Today is weekday!");
+        break;
+    default:
+        console.log("Today is weekend!");
 }
